@@ -786,12 +786,7 @@ video{
 }
 @media screen and (max-width:620px) {
     .LeftProfExp{
-        max-width:20%;
         margin:auto;
-        clear:left;
-    }
-    .RightProfExp{
-        max-width:70%;
     }
 }
 
@@ -969,4 +964,5 @@ video{
   .juniorhigh-achievement{
     width:100%;
   }
+
 }
