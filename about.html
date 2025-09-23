@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    
+    <!---External CSS File-->
+    <link rel="stylesheet" href="styles.css">
+    <title> My Portfolio </title>
+    <!-- Social Media Icons-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<!--navigation buttons-->
+  <header>
+    <h1 nav style="font-size:8vw"> About me </h1>
+  <nav>
+    <div class="navbar">
+        <a href= "GalleryShowcase.html">Gallery</a>
+        <a href= "Contact.html">Contact me </a>
+        <div class="dropdown">
+        <button class="dropbtn">Skills & Experience</button>
+        <div class="dropdown-content">
+          <a href= "Resume.html"> Resume</a>
+          <a href= "Feedback.html"> Feedback</a>
+          <a href= "Skills.html"> Skills </a>
+          <a href= "AcademicAchievements.html">Academic Achievements</a>
+          <a href= "ProfessionalExp.html"> Professional Experience</a>
+          <a href= "Extracurricular.html">Extracurricular</a>
+        </div>
+      </div>
+    </div>
+</nav>
+</style>
+</header>
+
+<body>
+    <section>
+      <article>
+        <h2> About Me</h2>
+        <img src="image/IGV 2.png" alt="" class="profilepic" width="465px" height="503.5px">
+      <div class="aboutacad">
+        <p> I am a <span style="font-weight:bold"> freshman at the Pamantasan ng Lungsod ng Maynila</span>, at the College of Information Systems and Technology Management, currently taking <span style="font-weight:bold"> Bachelor of Science in Computer Science.</span>
+          I previously came from Perpetual Help College of Manila where I took my Senior Highschool with STEM. I am a hardworker and aims to broaden skills in technology, with the passion to build eye-catching projects that can help meet the needs of many. </p>
+        </div>
+      <div class="grid-container">
+        <div class="aboutexperience">
+          <p> I did my work immersion at <span style="font-weight:bold"> GlobalKnowledge or GK College </span> situated at Mandaluyong to do IT work. We tackled creations of web pages, and editing of films.</p>
+        </div>
+        <div class="aboutinterest">
+          <p>I like to read, game in my free time, and hang out with my friends and family.
+          I am also a music nerd where I adore all genres like classical, pop, jazz, to add I also enjoy watching musical theatre plays.</p>
+        </div>
+      </div>
+      <div class="aboutsocials">
+        <h3> My Socials:</h3>
+      <a href="https://www.facebook.com/share/175dc3ZYKH/" target="_blank" class="fa-brands fa-facebook"> </a>
+      <a href="https://www.instagram.com/vhall_tl/" target="_blank" class="fa-brands fa-instagram"> </a>
+      <a href="https://www.linkedin.com/in/vhalerie-lei-comeros-a7490a380/" target="_blank" class="fa-brands fa-linkedin"> </a>
+      <a href="https://github.com/Vhalerie21" target="_blank" class="fa-brands fa-github"> </a>
+      </div>
+    
+      </article>
+    </section>
+
+</body>
+
+<!-- Home button-->
+<footer>
+    <button1 onclick="document.location='index.html'"class="button1">
+  Home
+</button1>
+</footer>
+
+<style>
+  h2{
+    text-align: center;
+    clear: right;
+    color:#ffffff;
+    font-size: 10vw;
+    text-shadow:3px 3px 5px #d6537d;
+  }
+  .p{
+    text-decoration: none;
+    text-align: center;
+    color:#86344e;
+    font-size: 3vw;
+  }
+  h3{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow:3px 3px 5px #b9466b;
+    margin-right: 3px;
+  }
+@media screen and (max-width:900px){
+  .profilepic{
+    display:flex;
+    flex-direction: row;
+    }
+  .aboutsocials a{
+    margin-right:5px auto;
+    }
+    .aboutacad p{
+      font-size: 3vw;
+    }
+    .aboutexperience p{
+      font-size: 3vw;
+    }
+    .aboutinterest p{
+      font-size: 3vw;
+    }
+}
+@media screen and (max-width:600px){
+  .profilepic{
+    display:none;
+  }
+}
+</style>
+
+</html>
